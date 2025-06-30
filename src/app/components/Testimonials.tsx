@@ -2,7 +2,7 @@ export default function Testimonials() {
   return (
     <section className="max-w-3xl mx-auto px-4 py-12">
       <h2 className="text-2xl font-bold mb-4">Testimonials</h2>
-      <div className="space-y-6 text-gray-300">
+      <div className="space-y-6 text-gray-800 dark:text-gray-300">
         <blockquote>
           <p className="italic">
             "Delivered exactly what we needed - on time and beyond

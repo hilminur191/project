@@ -5,10 +5,10 @@ export default function Portfolio() {
         <p className="mb-2 font-semibold">
           Project Title: Task Management Dashboard
         </p>
-        <p className="mb-4 text-gray-300">
+        <p className="mb-4 text-gray-800 dark:text-gray-300">
           A web app for teams to organize tasks and collaborate efficiently.
         </p>
-        <ul className="list-disc list-inside space-y-3 text-gray-300">
+        <ul className="list-disc list-inside space-y-3 text-gray-800 dark:text-gray-300">
           <li>
             <strong>Technologies:</strong> Next.js, Node.js, Express, MongoDB,
             Socket.io.
@@ -26,7 +26,8 @@ export default function Portfolio() {
             backend with Node.js/Express, real-time updates using Socket.io.
           </li>
           <li>
-            <strong>Result:</strong> Improve task tracking, with client reporting a 30% fasteronboarding process.
+            <strong>Result:</strong> Improve task tracking, with client
+            reporting a 30% fasteronboarding process.
           </li>
         </ul>
       </section>

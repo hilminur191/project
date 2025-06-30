@@ -5,8 +5,10 @@ export default function Hero() {
     <section className="flex flex-col md:flex-row items-center justify-between max-w-4xl mx-auto px-4 py-12">
       <div className="max-w-lg">
         <h1 className="text-4xl font-bold mb-2">Hilmi Nurbani</h1>
-        <h2 className="text-xl mb-6 text-gray-300">Full-Stack Web Developer</h2>
-        <p className="mb-6 text-gray-300">
+        <h2 className="text-xl mb-6 text-gray-800 dark:text-gray-300">
+          Full-Stack Web Developer
+        </h2>
+        <p className="mb-6 text-gray-800 dark:text-gray-300">
           Hi, I'm a Fullstack Web Developer passionate about building seamless
           digital experience-from beautiful frontends to powerful backends.
         </p>
