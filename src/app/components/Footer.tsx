@@ -1,3 +1,5 @@
+import { ArrowUp } from "lucide-react";
+
 export default function Footer() {
   return (
     <footer className="bg-gray-100 py-8 text-center text-black">
@@ -12,9 +14,13 @@ export default function Footer() {
         <p className="mb-2">
           <span className="font-semibold">Github:</span>hilminur
         </p>
-        <button className="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-          Get In Touch
-        </button>
+        <a
+          href="#top"
+          className="inline-flex items-center px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition"
+        >
+          <ArrowUp className="mr-2" />
+          Back to Top
+        </a>
       </div>
     </footer>
   );

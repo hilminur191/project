@@ -1,6 +1,6 @@
 export default function Portfolio() {
     return (
-      <section className="max-w-3xl mx-auto px-4 py-12">
+      <section id="portfolio" className="max-w-3xl mx-auto px-4 py-12">
         <h2 className="text-2xl font-bold mb-4">Portfolio</h2>
         <p className="mb-2 font-semibold">
           Project Title: Task Management Dashboard

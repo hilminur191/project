@@ -1,3 +1,4 @@
+import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
@@ -17,6 +18,7 @@ export const metadata = {
 export default function Home() {
   return (
     <div>
+      <Navbar />
       <Hero />
       <About />
       <Skills />
