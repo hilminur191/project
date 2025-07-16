@@ -7,6 +7,7 @@ import Experience from "./components/Experience";
 import Testimonials from "./components/Testimonials";
 import ContactForm from "./components/ContactForm";
 import Footer from "./components/Footer";
+import SkillGrid from "./components/SkillGrid";
 
 export const metadata = {
   title: "Hilmi Nurbani – Full-Stack Developer",
@@ -21,7 +22,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
-      <Skills />
+      <SkillGrid />
       <Portfolio />
       <Experience />
       <Testimonials />
