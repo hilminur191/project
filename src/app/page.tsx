@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 import SkillGrid from "./components/SkillGrid";
 
 export const metadata = {
-  title: "Hilmi Nurbani – Full-Stack Developer",
+  title: "Hilmi Nurbani - Full-Stack Developer",
   description: "Experienced full-stack developer building modern web apps.",
   keywords: ["Full-Stack", "Next.js", "Portfolio", "Hilmi Nurbani"],
   authors: [{ name: "Hilmi Nurbani" }],
